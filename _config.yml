@@ -1,0 +1,25 @@
+title: Yunsheng Ma 
+logo: /assets/img/YM_3324_c.png
+description:  # your text below (remove <br> elements if you don't need line breaks)
+  "
+  Research Assistant <br>
+  Purdue University <br>
+  Email: ma801 at purdue.edu <br>
+  "
+
+  # Dear friends, nice to meet you!    
+  # <br><br>
+  # I am Jiawei Xue, a Ph.D. candidate in <a href="https://engineering.purdue.edu/CE">Lyles School of Civil Engineering, Purdue University</a>.       
+  # I am working on interesting research problems in (1) artificial intelligence for urban science; (2) network science; (3) transportation modeling and optimization 
+  # with <a href="http://www.satishukkusuri.com/">Prof. Satish V. Ukkusuri</a>.
+  # I obtained my M.S.E degree from Purdue University in 2020 and my B.E. degree from Tsinghua University in 2018.    
+  # <br><br>
+  # Please find my <a href="JiaweiXue-CV-20220826.pdf">CV (August 2022)</a>, 
+  # <a href="https://scholar.google.com/citations?hl=en&user=YPwRH50AAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a>,
+  # <a href="https://www.researchgate.net/profile/Jiawei-Xue-6/research">ResearchGate</a>,
+  # <a href="https://www.linkedin.com/in/jiawei-xue/">LinkedIn</a>.
+
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+google_analytics: # your Google Analytics tracking ID here
