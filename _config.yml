@@ -7,11 +7,12 @@ description:  # your text below (remove <br> elements if you don't need line bre
   <a href="https://ziranw.github.io">Ziran Wang</a>. Previously, I earned my M.S. degree 
   from Courant Institute of Mathematical Sciences, New York University in 2022 and my B.Eng. 
   from Harbin Institute of Technology in 2020. My research focuses on computer
-  vision and its applications in autonomous driving.
+  vision and its applications in autonomous driving. <br><br>
 
-  <a href="ma801@purdue.edu"> Email </a>
-  <a href="https://scholar.google.com/citations?user=notEEFMAAAAJ&hl=en"> Google Scholar </a>
-  <a href="https://www.linkedin.com/in/yunsheng-ma-200ab6250/"> LinkedIn </a>
+  <a href="ma801@purdue.edu"> Email </a> | 
+  <a href="https://scholar.google.com/citations?user=notEEFMAAAAJ&hl=en"> Google Scholar </a> |
+  <a href="https://www.linkedin.com/in/yunsheng-ma-200ab6250/"> LinkedIn </a> |
+
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
