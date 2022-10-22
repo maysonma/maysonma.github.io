@@ -1,7 +1,7 @@
 title: Yunsheng Ma 
 logo: /assets/img/YM_3324_c.png
 description:  # your text below (remove <br> elements if you don't need line breaks)
-  Email: ma801 at purdue.edu <br><br>
+  "Email: ma801 at purdue.edu <br><br>
 
   Office: HAMP 2155, 550 Stadium Mall Drive, West Lafayette, IN, 47907 <br><br>
 
@@ -12,7 +12,8 @@ description:  # your text below (remove <br> elements if you don't need line bre
   My research focuses on computer vision and its applications in autonomous driving. <br><br>
  
   <a href="https://scholar.google.com/citations?user=notEEFMAAAAJ&hl=en"> Google Scholar </a> |
-  <a href="https://www.linkedin.com/in/yunsheng-ma-200ab6250/"> LinkedIn </a> 
+  <a href="https://www.linkedin.com/in/yunsheng-ma-200ab6250/"> LinkedIn </a>"
+  
 
   
 remote_theme: pages-themes/minimal@v0.2.0
