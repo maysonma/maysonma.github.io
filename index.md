@@ -9,7 +9,10 @@
 - Zhao, Sicheng\*, **Yunsheng Ma\***, Yang Gu, Jufeng Yang, Tengfei Xing, Pengfei Xu, Runbo Hu, Hua Chai, and Kurt Keutzer. [An end-to-end visual-audio attention network for emotion recognition in user-generated videos](https://ojs.aaai.org/index.php/AAAI/article/view/5364). *In Proceedings of the AAAI Conference on Artificial Intelligence* (**AAAI**), 2020. [**\*Co-first authors, full paper, oral**] [[code](https://github.com/maysonma/VAANet)]
   
 ## Academic Service
+**Conference refereeing**
 - ACM/IEEE International Conference on Cyber-Physical Systems
+
+**Journal refereeing**
 - IEEE Transactions on Intelligent Vehicles  
 
 <meta http-equiv='cache-control' content='no-cache'> 
