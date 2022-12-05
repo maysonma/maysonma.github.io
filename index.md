@@ -1,7 +1,7 @@
 ### Welcome to Yunsheng's Website
 ---
 ## Recent News
-- [Oct, 2022] In the spring of 2023, I will enroll as a Ph.D. student at [Purdue](https://www.purdue.edu/) under the supervision of Professor [Ziran Wang](https://ziranw.github.io)!
+- [10/2022] In the spring of 2023, I will enroll as a Ph.D. student at [Purdue](https://www.purdue.edu/) under the supervision of Professor [Ziran Wang](https://ziranw.github.io)!
 
 ## Selected Publications
 ##### \* indicates co-first authors
