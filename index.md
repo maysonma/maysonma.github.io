@@ -15,7 +15,7 @@
 ## Academic Service
 - Reviewer of *ACM/IEEE International Conference on Cyber-Physical Systems* (**ICCPS**), 2023.
 - Reviewer of *IEEE Transactions on Intelligent Vehicles*.
-- Webmaster of *Technical Committee on Internet of Things in Intelligent Transportation System*.
+- Webmaster of *IEEE Technical Committee on Internet of Things in Intelligent Transportation System*.
 
 <meta http-equiv='cache-control' content='no-cache'> 
 <meta http-equiv='expires' content='0'> 
