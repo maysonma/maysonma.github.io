@@ -9,7 +9,7 @@
 
 - **Yunsheng Ma**, and Ziran Wang. [ViT-DD: Multi-Task Vision Transformer for Semi-Supervised Driver Distraction Detection](https://arxiv.org/abs/2209.09178). Accepted at *NeurIPS Workshop on Machine Learning for Autonomous Driving* (**NeurIPS ML4AD**), 2022. [[paper](https://arxiv.org/abs/2209.09178)] [[code](https://github.com/PurdueDigitalTwin/ViT-DD)] [[poster](https://github.com/PurdueDigitalTwin/ViT-DD/blob/main/.github/11.pdf)]
 
-- Zhao, Sicheng\*, **Yunsheng Ma\***, Yang Gu, Jufeng Yang, Tengfei Xing, Pengfei Xu, Runbo Hu, Hua Chai, and Kurt Keutzer. [An end-to-end visual-audio attention network for emotion recognition in user-generated videos](https://ojs.aaai.org/index.php/AAAI/article/view/5364). *In Proceedings of the AAAI Conference on Artificial Intelligence* (**AAAI**), 2020. (**Oral Presentation**) [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/5364)] [[code](https://github.com/maysonma/VAANet)]
+- Zhao, Sicheng\*, **Yunsheng Ma\***, Yang Gu, Jufeng Yang, Tengfei Xing, Pengfei Xu, Runbo Hu, Hua Chai, and Kurt Keutzer. [An end-to-end visual-audio attention network for emotion recognition in user-generated videos](https://ojs.aaai.org/index.php/AAAI/article/view/5364). *In Proceedings of the AAAI Conference on Artificial Intelligence* (**AAAI**), 2020 (**Oral Presentation**). [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/5364)] [[code](https://github.com/maysonma/VAANet)]
 
 ## Teaching
 - NYU CSCI-GA.3033 *Design and Analysis of Algorithms*, Teaching Assistant, Spring 2021.
