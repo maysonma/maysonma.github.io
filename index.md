@@ -15,7 +15,7 @@
 - NYU CSCI-GA.3033 *Design and Analysis of Algorithms*, Teaching Assistant, Spring 2021.
 
 ## Academic Service
-- Reviewer of *ACM/IEEE International Conference on Cyber-Physical Systems* (**ICCPS**), 2023.
+- Reviewer of *ACM/IEEE International Conference on Cyber-Physical Systems (ICCPS), 2023*.
 - Reviewer of *IEEE Transactions on Intelligent Vehicles*.
 - Webmaster of *IEEE Technical Committee on Internet of Things in Intelligent Transportation System*.
 
