@@ -117,18 +117,6 @@ strong {
   color: var(--global-text-color);
 }
 
-hr {
-  border-top: 1px solid var(--global-divider-color);
-}
-
-table td,
-table th {
-  font-size: 1rem;
-}
-table th {
-  font-weight: bold;
-}
-
 a,
 table.table a {
   color: var(--global-theme-color);
@@ -141,11 +129,6 @@ table.table a:hover {
 a:hover:after :not(.nav-item.dropdown),
 table.table a:hover:after :not(.nav-item.dropdown) {
   width: 100%;
-}
-
-figure,
-img {
-  max-width: 90vw;
 }
 
 blockquote {
@@ -168,30 +151,13 @@ blockquote {
   text-align: center;
 }
 
-.card {
-  background-color: var(--global-card-bg-color);
-}
-.card img {
-  width: 100%;
-}
-.card .card-title {
-  color: var(--global-text-color);
-}
-.card .card-item {
-  width: auto;
-  margin-bottom: 10px;
-}
-.card .card-item .row {
-  display: flex;
-  align-items: center;
-}
-
 .citation,
 .citation-number {
   color: var(--global-theme-color);
 }
 
 .profile {
+  margin-left: 1rem;
   width: 100%;
 }
 .profile .address {
@@ -204,14 +170,6 @@ blockquote {
   margin: 0;
 }
 
-.profile.float-right {
-  margin-left: 1rem;
-}
-
-.profile.float-left {
-  margin-right: 1rem;
-}
-
 @media (min-width: 576px) {
   .profile {
     width: 30%;
@@ -222,7 +180,7 @@ blockquote {
 }
 .post-description {
   margin-bottom: 2rem;
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
 .post-description a {
   color: inherit;
@@ -335,11 +293,29 @@ blockquote {
   color: var(--global-hover-color);
 }
 
+.news table td {
+  font-size: 1rem;
+  color: var(--global-text-color);
+  padding: -1rem;
+}
+
+.news table th {
+  color: var(--global-text-color);
+  width: 100px;
+}
+
+.news table.table-sm th, table.table-sm td {
+  padding-top: 0rem;
+  padding-bottom: 0.5rem;
+}
+
 .social {
   text-align: left;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
 }
 .social .contact-icons {
-  font-size: 32px;
+  font-size: 2rem;
 }
 .social .contact-icons a i::before {
   color: var(--global-text-color);
@@ -542,7 +518,8 @@ footer.sticky-bottom {
   margin-top: 0;
 }
 .publications ol.bibliography li {
-  margin-bottom: 1rem;
+  min-height: 110px;
+  margin-bottom: 0.5rem;
 }
 .publications ol.bibliography li .preview {
   width: 100%;
@@ -550,7 +527,7 @@ footer.sticky-bottom {
   max-width: 200px;
 }
 .publications ol.bibliography li .abbr {
-  height: 2rem;
+  height: 8rem;
   margin-bottom: 0.5rem;
 }
 .publications ol.bibliography li .abbr abbr {
@@ -558,6 +535,9 @@ footer.sticky-bottom {
   background-color: var(--global-theme-color);
   padding-left: 1rem;
   padding-right: 1rem;
+  position: absolute;
+  top: 8px;
+  left: 16px;
 }
 .publications ol.bibliography li .abbr abbr a {
   color: white;
@@ -599,31 +579,17 @@ footer.sticky-bottom {
   padding-right: 1rem;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-  margin-left: 0;
 }
 .publications ol.bibliography li .links a.btn:hover {
   color: var(--global-theme-color);
   border-color: var(--global-theme-color);
-}
-.publications ol.bibliography li .badges {
-  padding-bottom: 0.5rem;
-}
-.publications ol.bibliography li .badges span {
-  display: inline-block;
-  color: #000000;
-  height: 100%;
-  padding-right: 0.5rem;
-  vertical-align: middle;
-}
-.publications ol.bibliography li .badges span:hover {
-  text-decoration: underline;
 }
 .publications ol.bibliography li .hidden {
   font-size: 0.875rem;
   max-height: 0px;
   overflow: hidden;
   text-align: justify;
-  transition-property: 0.15s ease;
+  -webkit-transition: 0.15s ease;
   -moz-transition: 0.15s ease;
   -ms-transition: 0.15s ease;
   -o-transition: 0.15s ease;
@@ -640,7 +606,7 @@ footer.sticky-bottom {
 }
 .publications ol.bibliography li .hidden.open {
   max-height: 100em;
-  transition-property: 0.15s ease;
+  -webkit-transition: 0.15s ease;
   -moz-transition: 0.15s ease;
   -ms-transition: 0.15s ease;
   -o-transition: 0.15s ease;
@@ -651,6 +617,16 @@ footer.sticky-bottom {
 }
 .publications ol.bibliography li div.abstract.hidden.open {
   border-color: var(--global-text-color);
+}
+.publications ol.bibliography li .teaser {
+  border-radius: 8px;
+  box-shadow: 3px 3px 6px #888;
+  height: 120px;
+  width: 180px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  object-fit: cover;
 }
 
 figure.highlight {
@@ -686,170 +662,6 @@ html.transition *:after {
   transition-delay: 0 !important;
 }
 
-.post .post-meta {
-  color: var(--global-text-color-light);
-  font-size: 0.875rem;
-  margin-bottom: 0;
-}
-.post .post-tags {
-  color: var(--global-text-color-light);
-  font-size: 0.875rem;
-  padding-top: 0.25rem;
-  padding-bottom: 1rem;
-}
-.post .post-tags a {
-  color: var(--global-text-color-light);
-  text-decoration: none;
-}
-.post .post-tags a:hover {
-  color: var(--global-theme-color);
-}
-.post .post-content blockquote {
-  border-left: 5px solid var(--global-theme-color);
-  padding: 8px;
-}
-
-progress {
-  /* Positioning */
-  position: fixed;
-  left: 0;
-  top: 56px;
-  z-index: 10;
-  /* Dimensions */
-  width: 100%;
-  height: 1px;
-  /* Reset the appearance */
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  /* Get rid of the default border in Firefox/Opera. */
-  border: none;
-  /* Progress bar container for Firefox/IE10  */
-  background-color: transparent;
-  /* Progress bar value for IE10  */
-  color: var(--global-theme-color);
-}
-
-progress::-webkit-progress-bar {
-  background-color: transparent;
-}
-
-progress::-webkit-progress-value {
-  background-color: var(--global-theme-color);
-}
-
-progress::-moz-progress-bar {
-  background-color: var(--global-theme-color);
-}
-
-.progress-container {
-  width: 100%;
-  background-color: transparent;
-  position: fixed;
-  top: 56px;
-  left: 0;
-  height: 5px;
-  display: block;
-}
-
-.progress-bar {
-  background-color: var(--global-theme-color);
-  width: 0%;
-  display: block;
-  height: inherit;
-}
-
-/* Copy button */
-.code-display-wrapper {
-  position: relative;
-}
-.code-display-wrapper .copy {
-  background: var(--global-card-bg-color);
-  border-color: var(--global-bg-color);
-  border-radius: 0.3rem;
-  border-style: none;
-  color: var(--global-text-color);
-  font-size: medium;
-  opacity: 0;
-  position: absolute;
-  right: 0.5rem;
-  top: 0.5rem;
-}
-.code-display-wrapper:active .copy, .code-display-wrapper:focus .copy, .code-display-wrapper:hover .copy {
-  color: var(--global-hover-color);
-  opacity: 1;
-}
-
-.btn-group.dropdown .btn {
-  box-shadow: none;
-  -webkit-box-shadow: none;
-}
-.btn-group.dropdown .btn-secondary.dropdown-toggle {
-  border: 1px solid var(--global-divider-color);
-}
-.btn-group.dropdown .btn-secondary.dropdown-toggle .page-size {
-  color: inherit;
-}
-.btn-group.dropdown .btn-secondary.dropdown-toggle:not(.active) {
-  background-color: var(--global-bg-color) !important;
-  color: var(--global-text-color);
-}
-.btn-group.dropdown .btn-secondary.dropdown-toggle:hover {
-  background-color: var(--global-hover-color) !important;
-  color: var(--global-hover-text-color) !important;
-}
-.btn-group.dropdown .dropdown-menu {
-  background-color: var(--global-bg-color);
-}
-.btn-group.dropdown .dropdown-item {
-  background-color: var(--global-bg-color);
-  color: var(--global-text-color);
-}
-.btn-group.dropdown .dropdown-item:hover {
-  color: var(--global-hover-color);
-}
-.btn-group.dropdown .dropdown-item.active, .btn-group.dropdown .dropdown-item:active {
-  background-color: var(--global-hover-color);
-  color: var(--global-hover-text-color) !important;
-}
-.btn-group.dropdown .dropdown-item.active:hover, .btn-group.dropdown .dropdown-item:active:hover {
-  color: var(--global-hover-text-color);
-}
-
-/* Table of Contents */
-nav[data-toggle=toc] {
-  top: 5rem;
-}
-nav[data-toggle=toc] .nav .nav > li > a {
-  font-size: 0.75rem;
-}
-nav[data-toggle=toc] .nav > li > a {
-  color: var(--global-text-color);
-  font-size: 0.75rem;
-}
-nav[data-toggle=toc] .nav > li > a:hover {
-  color: var(--global-hover-color);
-  border-left-color: var(--global-hover-color);
-}
-nav[data-toggle=toc] .nav-link.active {
-  color: var(--global-theme-color);
-  border-left-color: var(--global-theme-color);
-  font-size: 0.75rem;
-}
-nav[data-toggle=toc] .nav-link.active:hover {
-  color: var(--global-hover-color);
-  border-left-color: var(--global-hover-color);
-}
-
-/* small screens */
-@media (max-width: 576px) {
-  /* override stickyness so that the navigation does not follow scrolling */
-  nav[data-toggle=toc] {
-    visibility: hidden;
-    height: 0;
-    top: 0;
-  }
-}
 /*******************************************************************************
  * Style overrides for distill blog posts.
  ******************************************************************************/
