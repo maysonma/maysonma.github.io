@@ -124,6 +124,8 @@ commands to improve human-vehicle language understanding. While using the datase
 
 <h3 id="dataset-2-in-cabin-user-command-understanding-ucu">Dataset 2: In-Cabin User Command Understanding (UCU)</h3>
 
+<p><a href="https://github.com/LLVM-AD/ucu-dataset/blob/main/ucu.csv" rel="external nofollow noopener" target="_blank">Data Download</a>; <a href="https://github.com/LLVM-AD/ucu-dataset" rel="external nofollow noopener" target="_blank">Code for Evaluation</a></p>
+
 <p>The future of autonomous vehicles is not only to transport passengers from point A to point B, but also to adapt to
 their needs and preferences. Large Language Models (LLMs) have provided an opportunity to advance the state-of-the-art
 of this vision. This dataset focuses on understanding user commands in the context of autonomous vehicles.</p>
@@ -181,13 +183,20 @@ participants are free to use any other data for training or come up with their o
 
 <h4 id="evaluation">Evaluation</h4>
 
-<p>To use the provided codebase for evaluation, the output should be in the following format:</p>
+<p>To use the provided code for evaluation, the output should be in the following format:</p>
 
 <p><code class="language-plaintext highlighter-rouge">&lt;command_id&gt; &lt;A1&gt; &lt;A2&gt; &lt;A3&gt; &lt;A4&gt; &lt;A5&gt; &lt;A6&gt; &lt;A7&gt; &lt;A8&gt;</code></p>
 
 <p>where <code class="language-plaintext highlighter-rouge">&lt;command_id&gt;</code> is the command numeric identifier, starting with 1. Command IDs have been
 provided in the CSV file in the data download link.
 <code class="language-plaintext highlighter-rouge">&lt;A1&gt;</code> to <code class="language-plaintext highlighter-rouge">&lt;A8&gt;</code> are the answers to the 8 questions, where 1 indicates “Yes” and 0 indicates “No”.</p>
+
+<p>We use two accuracy metrics for evaluation:</p>
+
+<ol>
+  <li>Command-level accuracy: The command is considered correct if all 8 answers are correct.</li>
+  <li>Question-level accuracy: The question is considered correct if the answer is correct.</li>
+</ol>
 
 
           </article>
