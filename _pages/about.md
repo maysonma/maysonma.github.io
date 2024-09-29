@@ -34,6 +34,7 @@ social: true # includes social icons at the bottom of the page
 - Reviewer of the IEEE International Conference on Intelligent Transportation Systems ([ITSC](https://ieee-itss.org/conf/itsc/))
 - Reviewer of the IEEE Intelligent Vehicles Symposium ([IV](https://ieee-iv.org/2024/))
 - Reviewer of the IEEE Forum for Innovative Sustainable Transportation Systems ([FISTS](https://ieee-itss.org/conf/fists/))
+- Reviewer of the IEEE International Symposium on Biomedical Imaging ([ISBI](https://biomedicalimaging.org))
 - Reviewer of the ACM International Conference on Information and Knowledge Management ([CIKM](https://www.cikm2024.org/))
 - Reviewer of the ACM/IEEE International Conference on Cyber-Physical Systems ([ICCPS](https://iccps.acm.org/))
 - Reviewer of IEEE Internet of Things Journal ([IoT-J](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6488907))
@@ -41,6 +42,13 @@ social: true # includes social icons at the bottom of the page
 - Reviewer of International Journal of Human–Computer Interaction ([IJHCI](https://www.tandfonline.com/toc/hihc20/current))
 - Reviewer of IEEE Vehicular Technology Magazine ([VTM](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10209))
 - Reviewer of IEEE Internet Computing ([IC](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4236))
+
+#### Volunteering
+- Student Volunteer at the 37th AAAI Conference on Artificial Intelligence, Washington, DC
+- Student Volunteer at the 39th Conference on Uncertainty in Artificial Intelligence, Pittsburgh, PA
+- Assistant Moderator at TRB Conference on Innovations in Travel Analysis and Planning, Indianapolis, IN
+- Webmaster at IEEE Technical Committee on Internet of Things in Intelligent Transportation System
+
 
 
 
