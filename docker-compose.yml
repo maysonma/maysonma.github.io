@@ -10,3 +10,8 @@ services:
       - .:/srv/jekyll
     environment:
       - JEKYLL_ENV=development
+    command: >
+      sh -c "
+      git config --global --add safe.directory /srv/jekyll &&
+      bundle exec /tmp/entry_point.sh
+      "
