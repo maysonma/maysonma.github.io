@@ -16,9 +16,12 @@ social: true # includes social icons at the bottom of the page
 ---
 
 ## Academic Service
-- Organizer of the [3rd WACV 2025 Workshop on Large Language and Vision Models for Autonomous Driving (LLVM-AD)](https://llvm-ad.github.io/)
-- Organizer of the [2nd ITSC 2024 Workshop on Large Language and Vision Models for Autonomous Driving (LLVM-AD)](https://llvm-ad.github.io/)
-- Organizer of the [1st WACV 2024 Workshop on Large Language and Vision Models for Autonomous Driving (LLVM-AD)](https://llvm-ad.github.io/previous_workshop/)
+#### Organizing
+- Organizer of the WACV 2025 Workshop on Large Language and Vision Models for Autonomous Driving [(3rd LLVM-AD)](https://llvm-ad.github.io/)
+- Organizer of the ITSC 2024 Workshop on Large Language and Vision Models for Autonomous Driving [(2nd LLVM-AD)](https://llvm-ad.github.io/)
+- Organizer of the WACV 2024 Workshop on Large Language and Vision Models for Autonomous Driving [(1st LLVM-AD)](https://llvm-ad.github.io/previous_workshop/)
+
+#### Reviewing
 - Reviewer of the IEEE/CVF Conference on Computer Vision and Pattern Recognition ([CVPR](https://cvpr.thecvf.com/))
 - Reviewer of the International Conference on Learning Representations ([ICLR](https://iclr.cc/))
 - Reviewer of the International Conference on Artificial Intelligence and Statistics ([AISTATS](https://aistats.org/))
