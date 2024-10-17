@@ -44,7 +44,6 @@ layout: default
       <div class="social">
         <div class="contact-icons">
           {% include social.liquid %}
-          <a href="https://scholar.google.com/citations?user=notEEFMAAAAJ" target="_blank" rel="noopener"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/maysonma/AcadHomepage/google-scholar-stats/gs_data_shieldsio.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Google Scholar Citations Badge"> </a>
         </div>
         {% comment %} <div class="contact-note">{{ site.contact_note }}</div> {% endcomment %}
       </div>
@@ -70,8 +69,9 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications <a href="https://scholar.google.com/citations?user=notEEFMAAAAJ" target="_blank" rel="noopener"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/maysonma/AcadHomepage/google-scholar-stats/gs_data_shieldsio.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Google Scholar Citations Badge"> </a></a>
       </h2>
+       * Equal Contributions 
       {% include selected_papers.liquid %}
     {% endif %}
 
