@@ -1,0 +1,8 @@
+<!-- ---
+layout: post
+date: 2024-09-28
+inline: true
+related_posts: false
+---
+
+Co-organizing 3rd WACV 2025 Workshop on Large Language and Vision Models for Autonomous Driving 🔥 -->
