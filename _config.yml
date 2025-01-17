@@ -66,7 +66,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
-cv: Resume.pdf # your CV/Resume file
+cv: CV_Yunsheng_Ma.pdf # your CV/Resume file
 acm_id: # your dl.acm.org/profile/id
 blogger_url: # your blogger URL
 bluesky_url: # your bluesky URL
