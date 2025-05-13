@@ -31,6 +31,6 @@ social: true # includes social icons at the bottom of the page
 - AI conferences: [AAAI](https://aaai.org/conference/aaai/), [IJCAI](https://ijcai24.org/)
 - Robotics conferences: [ICRA](https://2025.ieee-icra.org/), [IROS](https://www.iros25.org/)
 - Other conferences: [ISBI](https://biomedicalimaging.org), [CIKM](https://www.cikm2024.org/), [ICCPS](https://iccps.acm.org/), [MOST](https://ieeemobility.org/), [ACMMM](https://acmmm2025.org/)
-- Journals: [IoT-J](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6488907), [T-ITS](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6979), [T-IV](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7274857), [RA-L](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369)
+- Journals: [TPAMI](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34), [T-ITS](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6979), [T-IV](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7274857), [IoT-J](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6488907), [RA-L](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369)
 
 I am inspired by Steve Jobs' words: *"Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven’t found it yet, keep looking. Don’t settle. As with all matters of the heart, you’ll know when you find it."*
